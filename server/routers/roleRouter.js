@@ -1,8 +1,15 @@
-const express = require("express")
-const { roleController } = require('../controllers')
+const express = require("express");
+const { roleController } = require("../controllers");
 
-const router = express.Router()
+const router = express.Router();
 
-router.post("/new-role", roleController.AddRole)
+router.post("/new-role", roleController.AddRole);
+// POST /post/:id/like
+// DELETE /post/:id/like
 
-module.exports = router
+// GET /transaction/:id/detail
+
+// GET /employee/:id/department
+// GET /department/:id/employees
+
+module.exports = router;
